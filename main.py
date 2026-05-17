@@ -119,7 +119,7 @@ class SanJoseEngineeringPipeline:
         print("✅ 2 Animations saved to outputs/ folder.")
 
 if __name__ == "__main__":
-    pipeline = SanJoseEngineeringPipeline('data/train.csv')
+    pipeline = SanJoseEngineeringPipeline('data/dataset_original.csv')
     pipeline.ingest_and_clean()
     
     # Call the new calculation function here
